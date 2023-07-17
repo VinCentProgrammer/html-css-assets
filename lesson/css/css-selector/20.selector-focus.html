@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector focus</title>
+</head>
+<body>
+    <style>
+        input[type = "text"]:focus{
+            outline: none;
+            border: 1px solid rgb(138, 165, 179);
+            background: #f7f1f1;
+        }
+        input[type = "password"]:focus{
+            outline: none;
+            border: 1px solid rgb(129, 179, 204);
+            background: #cb8686;
+        }
+    </style>
+    <h1>Selector Focus</h1>
+    <form action="">
+        <input type="text" name="username"> <br><br>
+        <input type="password" name="password" id = "password"><br><br><br>
+        <button>Đăng nhập</button>
+    </form>
+</body>
+</html>

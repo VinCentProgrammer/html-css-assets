@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector kết hợp</title>
+</head>
+<body>
+    <style>
+        h2.title{
+            color: red;
+        }
+        ul#main-menu>li>a{
+            background: tomato;
+            color: #fff;
+        }
+
+        ul#main-menu ul.sub-menu a{
+            /* background: rgb(206, 198, 198); */
+            color: rgb(18, 20, 26);
+        }
+        ul#main-menu ul.sub-menu>li:hover a:after{
+            font-style: italic;
+            content: url(https://i.pinimg.com/originals/21/eb/c5/21ebc531e5eb9725a64a52cac62325e2.png);
+        }
+    </style>
+    <h1>Selector Combine</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis assumenda earum nostrum minima, recusandae harum, doloribus eius beatae sit molestiae eaque exercitationem velit labore sint, quae vel possimus facilis nihil quo esse sed. Facere quam consectetur deserunt tempore sed? At rem blanditiis ullam rerum consequuntur, architecto libero expedita tenetur deleniti dignissimos aperiam nam alias, iusto saepe molestiae! Architecto nobis nesciunt porro aperiam? Voluptate ipsa corporis enim quia reiciendis. Eos doloremque similique suscipit magni sint vel nesciunt pariatur! Praesentium, architecto adipisci omnis libero non, aperiam in illum sed nihil dicta a accusantium error tenetur eius minus dolorum labore expedita exercitationem. Ducimus illo molestiae commodi eveniet. Dolore, id. Voluptatibus blanditiis quis, dolor quia voluptate quod eos distinctio ut aliquam molestiae amet nobis atque placeat vitae sed soluta dolorem doloribus laudantium iste consequatur rem animi est officia? Et quasi minus qui ipsam, nisi iure deserunt culpa dignissimos tempora amet saepe dicta alias maxime dolorum aut, natus reprehenderit, temporibus earum! Et quisquam atque ex consequatur, laborum pariatur temporibus aut quos! Maxime iure voluptas odio laudantium suscipit exercitationem, sed inventore atque magni consequuntur quisquam delectus dolores aliquam sint vero veniam earum hic minus enim nemo, eos neque eaque quibusdam? Blanditiis dolorum quo suscipit quibusdam!</p>
+    <h2 class="title">Title 1</h2>
+    <h2>Title 2</h2>
+
+    <ul id="main-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a>  
+            <ul class="sub-menu">
+                <li><a href="">SmartPhone</a></li>
+                <li><a href="">Laptop</a></li>
+            </ul>
+        </li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</body>
+</html>

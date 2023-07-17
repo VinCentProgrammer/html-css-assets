@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+</head>
+<body>
+    <style>
+        #wrapper{
+            width: 960px;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: row;
+            /*  flex-direction: row;
+                flex-direction: row-reverse;
+                flex-direction: column;
+            */
+            /* flex-direction: column-reverse; */
+        }
+        /* .box{
+            width: 200px;
+            padding: 20px;
+            background-color: tomato;
+            color: #fff;
+            margin: 10px;
+        } */
+
+        #content{
+            background-color: antiquewhite;
+            width: 600px;
+            min-height: 400px;
+        }
+        #sidebar{
+            background-color: bisque;
+            width: 360px;
+            min-height: 400px;
+        }
+    </style>
+    <h1>Display Flex</h1>
+    <div id="wrapper">
+        <!-- <div class="box">
+            Box - 1
+        </div>
+        <div class="box">
+            Box - 2
+        </div>
+        <div class="box">
+            Box - 3
+        </div>
+        <div class="box">
+            Box - 4
+        </div> -->
+        <div id="content">
+            Content 
+        </div>
+        <div id="sidebar">
+            Sidebar
+        </div>
+    </div>
+</body>
+</html>

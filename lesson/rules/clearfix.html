@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class ClearFix</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #wrapper{
+            margin: 0px auto;
+            width: 960px;
+            background-color: rgb(147, 118, 79);
+        }
+        .box-left, .box-right{
+            float: left;
+            min-height: 400px;
+        }
+        .box-left{
+            background-color: antiquewhite;
+            width: 600px;
+        }
+        .box-right{
+            background-color: rgb(203, 165, 114);
+            width: 360px;
+        }
+
+        .clearfix:after{
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        .clearfix{
+            display: block;
+            clear: both;
+        }
+    </style>
+    <h1>Class ClearFix</h1>
+    <div id="wrapper" class="clearfix">
+        <!-- Cách 1 -->
+        <!-- <div class="box-left">
+            LEFT
+        </div>
+        <div class="box-right">
+            RIGHT
+        </div>
+        <div class="clearfix"></div> -->
+        <!-- Cách 2 -->
+        <div class="box-left">
+            LEFT
+        </div>
+        <div class="box-right">
+            RIGHT
+        </div>
+    </div>
+</body>
+</html>

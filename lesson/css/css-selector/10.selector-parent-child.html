@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector con cháu - hậu duệ</title>
+</head>
+<body>
+    <style>
+        *{
+            font-size: 20px;
+        }
+        ul#main-menu>li>a {
+            color: red;
+        }
+        ul#main-menu ul.sub-menu a{
+            color: blue;
+        }
+        a{
+            color: #333;
+        }
+        .text-italic{
+            font-style: italic;
+        }
+    </style>
+    <ul id="main-menu">
+        <li><a href="">Trang chủ</a></li>
+        <li><a href="">Giới thiệu</a></li>
+        <li><a href="">Sản phẩm</a>
+            <ul class="sub-menu">
+                <li><a class="text-italic" href="">Điện thoại</a></li>
+                <li><a class="text-italic" href="">Máy tính</a></li>
+            </ul>
+        </li>
+        <li><a href="">Liên hệ</a></li>
+    </ul>
+
+    <a href="">DungDev.com</a>
+</body>
+</html>

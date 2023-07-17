@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector - Before - After</title>
+</head>
+<body>
+    <style>
+        .box{
+            background: tomato;
+            color: #fff;
+            padding: 10px;
+            margin: 10px;
+            width: 160px;
+        }
+        .box:hover p:before, p:after{
+            content: "😂";
+        }
+        .box:hover p:after{
+            content: url(https://cdn-icons-png.flaticon.com/128/4257/4257483.png);
+        }
+    </style>
+    <h1>Selector - Before - After</h1>
+    <div class="box">
+        <p>DungDevFullStack</p>
+    </div>
+    
+</body>
+</html>

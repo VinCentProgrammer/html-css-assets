@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector theo nhóm</title>
+</head>
+<body>
+    <style>
+        *{
+            font-size: 20px;
+        }
+        ul#main-menu>li>a{
+            color: tomato;
+        }
+        ul#main-menu ul.sub-menu a{
+            color: blue;
+            font-style: italic;
+        }
+        a, p{
+            color: #333;
+            font-style: italic;
+        }
+    </style>
+    <ul id="main-menu">
+        <li><a href="">Trang chủ</a></li>
+        <li><a href="">Giới thiệu</a></li>
+        <li><a href="">Sản phẩm</a>
+            <ul class="sub-menu">
+                <li><a href="">Điện thoại</a></li>
+                <li><a href="">Máy tính</a></li>
+            </ul>
+        </li>
+        <li><a href="">Liên hệ</a></li>
+    </ul>
+
+    <a href="">DungDev.com</a>
+    <p>Lập trình viên FULLSTACK</p>
+</body>
+</html>

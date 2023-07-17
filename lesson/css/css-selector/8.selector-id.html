@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector theo ID</title>
+</head>
+<body>
+    <style>
+        #wrapper{
+            width: 960px;
+            margin: 0px auto;
+        }
+        /* ==========HEADER=========== */
+        #header{
+            background: #333;
+        }
+        /* ==========CONTENT==========*/
+        #content{
+            min-height: 500px;
+        }
+        /* =============FOOTER============ */
+        #footer{
+            background-color: #333;
+        }
+        
+        .text-center{
+            text-align: center;
+        }
+        .text-white{
+            color: #fff;
+        }
+    </style>
+    <div id="wrapper">
+        <div id="header" class="text-center text-white">
+            <h3>HEADER</h3>
+        </div>
+        <div id="content">
+            CONTENT 
+        </div>
+        <div id="footer" class="text-center text-white">
+            <h3>FOOTER</h3>
+        </div>
+    </div>
+</body>
+</html>

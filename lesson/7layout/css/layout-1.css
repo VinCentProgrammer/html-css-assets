@@ -1,0 +1,16 @@
+#wrapper{
+    margin: 0px auto;
+    width: 960px;
+}
+#header, #footer{
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+#content{
+    background-color: antiquewhite;
+    min-height: 500px;
+    padding: 20px;
+}

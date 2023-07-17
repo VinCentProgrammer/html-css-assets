@@ -1,0 +1,21 @@
+
+#header, #footer{
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+#wp-content{
+    display: flex;
+    justify-content: space-around;
+    min-height: 500px;
+}
+#sidebar-left, #sidebar-right{
+    flex-basis: 20%;
+    background-color: azure;
+}
+#content{
+    flex-basis: 60%;
+    background-color: rgb(165, 179, 179);
+}

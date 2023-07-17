@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font weight</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #wrapper{
+            font-size: 2rem;
+            line-height: 1.5;
+        }
+        p{
+            /* font-weight: normal; */
+            /* font-weight: bold; */
+            font-weight: light;
+        }
+        .font-weight-300{
+            font-weight: light;
+        }
+        .font-weight-400{
+            font-weight: normal;
+        }
+        .font-weight-700{
+            font-weight: bold;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-justify{
+            text-align: justify;
+        }
+        .text-lowercase{
+            text-transform: lowercase;
+        }
+        .text-uppercase{
+            text-transform: uppercase;
+        }
+        .text-capitalize{
+            text-transform: capitalize;
+        }
+    </style>
+    <div id="wrapper">
+        <h1 class="text-capitalize">Font weight</h1>
+        <p class="font-weight-300 text-right text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestiae totam, quam porro sapiente quidem iusto distinctio blanditiis fugiat alias!</p>
+        <p class="font-weight-400 text-center text-lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestiae totam, quam porro sapiente quidem iusto distinctio blanditiis fugiat alias!</p>
+        <p class="font-weight-700 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestiae totam, quam porro sapiente quidem iusto distinctio blanditiis fugiat alias!</p>
+    </div>
+</body>
+</html>

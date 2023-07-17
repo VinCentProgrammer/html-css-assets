@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Box</title>
+</head>
+<body>
+    <h1>Radio Box</h1>
+    <form action="">
+        <label for="username">Tên đăng nhập:</label><br>
+        <input type="text" name="username" id="username" placeholder="Username"><br>
+        <label for="password">Mật khẩu:</label><br>
+        <input type="password" name="password" id="password" placeholder="Password"><br>
+        <label for="email">Email: </label><br>
+        <input type="email" name="email" id="email" placeholder="Email"><br>
+        <label for="amount">Số lượng: </label><br>
+        <input type="number" name="amount" id="amount" min="0" max = "10"><br>
+        <label for="city">Chọn thành phố: </label><br>
+        <select name="city" id="city">
+            <option value="0">Chọn thành phố</option>
+            <option value="1">Hà Nội</option>
+            <option value="2">Tp Hồ Chí Minh</option>
+            <option value="3">Đà Nẵng</option>
+        </select><br>
+        <!-- Radio Box -->
+        <label for="">Chọn giới tính:</label><br>
+        <label for="male">Nam</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Nữ</label>
+        <input type="radio" name="gender" id="female" value="female">
+    </form>
+</body>
+</html>

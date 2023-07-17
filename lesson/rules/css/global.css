@@ -1,0 +1,36 @@
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-red{
+    color: red;
+}
+.bg-tomato{
+    background-color: tomato;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.m-15{
+    margin: 15px;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-lowercase{
+    text-transform: lowercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+/* .... */

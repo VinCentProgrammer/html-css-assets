@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display block</title>
+</head>
+<body>
+    <style>
+        #wrapper{
+            width: 960px;
+            margin: 0px auto;
+        }
+        .link-group a{
+            display: block;
+            float: left;
+            background: red;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border-right: 1px solid #d1cdcd;
+            margin-bottom: 20px;
+        }
+        .link-group a:hover{
+            background: tomato;
+        }
+        .clear-both{
+            clear: both;
+        }
+        .link-group-2 a{
+            display: inline-block;
+            padding: 10px;
+            background: red;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        ul.sub-menu{
+            display: none;
+        }
+        ul.sub-menu li{
+            display: block;
+        }
+        ul#main-menu li{
+            display: block;
+            float: left;
+            background: red;
+            padding: 10px;
+            border-right: 1px solid #d0bfbf;
+        }
+        ul#main-menu li a{
+            color: #fff;
+            text-decoration: none;
+        }
+        ul#main-menu li:hover ul.sub-menu{
+            display: block;
+        }
+    </style>
+    <div id="wrapper">
+        <h1>Display Block</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum id doloremque omnis soluta, eum non nobis laboriosam nisi alias ex.</p>
+        <div class="link-group">
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+            <a href="">Link 4</a>
+            <a href="">Link 5</a>
+            <div class="clear-both"></div>
+        </div>
+        <div class="link-group-2">
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+            <a href="">Link 4</a>
+            <a href="">Link 5</a>
+        </div>
+
+        <ul id="main-menu">
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Sản phẩm</a>
+                <ul class="sub-menu">
+                    <li><a href="">Điện thoại</a></li>
+                    <li><a href="">Máy tính</a></li>
+                </ul>
+            </li>
+            <li><a href="">Liên hệ</a></li>
+        </ul>
+    </div>
+</body>
+</html>
